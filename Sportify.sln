@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportify", "Sportify\Sportify.csproj", "{C4F495AF-2A53-4AE8-BE1C-D5CFD8F6F629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportify.Data", "Sportify.Data\Sportify.Data.csproj", "{CE426801-3204-496C-83D2-266729648019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportify.Services", "Sportify.Services\Sportify.Services.csproj", "{0B6239DE-1D62-475D-81D1-47E64A4A9E8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F495AF-2A53-4AE8-BE1C-D5CFD8F6F629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F495AF-2A53-4AE8-BE1C-D5CFD8F6F629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F495AF-2A53-4AE8-BE1C-D5CFD8F6F629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F495AF-2A53-4AE8-BE1C-D5CFD8F6F629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE426801-3204-496C-83D2-266729648019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE426801-3204-496C-83D2-266729648019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE426801-3204-496C-83D2-266729648019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE426801-3204-496C-83D2-266729648019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6239DE-1D62-475D-81D1-47E64A4A9E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6239DE-1D62-475D-81D1-47E64A4A9E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6239DE-1D62-475D-81D1-47E64A4A9E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6239DE-1D62-475D-81D1-47E64A4A9E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
