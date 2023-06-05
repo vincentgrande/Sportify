@@ -22,12 +22,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Sportify.Data\Sportify.Data.csproj" />
-      <ProjectReference Include="..\Sportify.Services\Sportify.Services.csproj" />
+      <_ContentIncludedByDefault Remove="Areas\Identity\Pages\_ViewStart.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="Areas\Identity\Pages\_ViewStart.cshtml" />
+      <Folder Include="Services" />
     </ItemGroup>
 
 </Project>

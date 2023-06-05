@@ -7,4 +7,8 @@ public class Profile
     public string Lastname { get; set; }
     public DateTime BirthDate { get; set; }
     public bool Sex { get; set; }
+    
+    public List<Competition>? Competitions { get; set; }
+    public List<Play>? Plays { get; set; }
+
 }

@@ -12,7 +12,7 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Competition> Competitions { get; set; }
     public DbSet<Sport> Sports { get; set; }
     public DbSet<Constraint> Constraints { get; set; }
-
+    public DbSet<Play> Plays { get; set; }
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
