@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Sportify.Data;
+using Sportify.Data.Models;
 
 namespace Sportify;
 
@@ -24,7 +25,7 @@ public class Startup
                 builder.EnableSensitiveDataLogging();
 #endif
             });
-        services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+        services.AddDefaultIdentity<Profile>(options => options.SignIn.RequireConfirmedAccount = false)
             .AddEntityFrameworkStores<ApplicationDbContext>();
        
         services.AddControllersWithViews();
