@@ -5,9 +5,8 @@ using Sportify.Data.Models;
 
 namespace Sportify.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : IdentityDbContext<Profile>
 {
-    public DbSet<Profile> Profiles { get; set; }
     public DbSet<Event> Events { get; set; }
     public DbSet<Competition> Competitions { get; set; }
     public DbSet<Sport> Sports { get; set; }
