@@ -25,7 +25,7 @@ public class Startup
                 builder.EnableSensitiveDataLogging();
 #endif
             });
-        services.AddDefaultIdentity<Profile>(options => options.SignIn.RequireConfirmedAccount = false)
+        services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
             .AddEntityFrameworkStores<ApplicationDbContext>();
        
         services.AddControllersWithViews();

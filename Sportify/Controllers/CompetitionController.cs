@@ -19,7 +19,18 @@ public class CompetitionController: Controller
     {
         return View();
     }
-
+    [Authorize]
+    public IActionResult Create()
+    {
+        return View();
+    }
+    [HttpGet]
+    public IActionResult Back()
+    {
+        // Redirect to the previous page
+        string returnUrl = Request.Headers["Referer"].ToString();
+        return Redirect(returnUrl);
+    }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
